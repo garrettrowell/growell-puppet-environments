@@ -2,7 +2,7 @@ forge "http://forge.puppetlabs.com"
 
 ## The core OpenStack modules
 
-mod "openstack"
+mod "openstack",
   :git => "git://github.com/puppetlabs/puppetlabs-openstack.git",
   :ref => "master"
 
