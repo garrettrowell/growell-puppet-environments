@@ -145,11 +145,11 @@ mod "ntp",
 
 mod "postgresql",
   :git => "git://github.com/puppetlabs/puppetlabs-postgresql",
-  :ref => "3.3.x"
+  :ref => "4.8.x"
 
 mod "puppetdb",
   :git => "git://github.com/puppetlabs/puppetlabs-puppetdb",
-  :ref => "4.0.0"
+  :ref => "5.1.2"
 
 # internal modules
 
