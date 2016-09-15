@@ -158,3 +158,14 @@ mod "roles",
 
 mod "profiles",
   :git => "git://github.com/garrettrowell/growell-puppet-profiles.git"
+
+# mcollective
+
+mod "mcollective",
+  :git => "git://github.com/voxpupuli/puppet-mcollective.git"
+
+mod "datacat",
+  :git => "https://github.com/richardc/puppet-datacat.git"
+
+mod "activemq",
+  :git => "git@github.com:puppetlabs/puppetlabs-activemq.git"
