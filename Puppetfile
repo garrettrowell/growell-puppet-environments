@@ -168,4 +168,4 @@ mod "datacat",
   :git => "https://github.com/richardc/puppet-datacat.git"
 
 mod "activemq",
-  :git => "git@github.com:puppetlabs/puppetlabs-activemq.git"
+  :git => "git://github.com/puppetlabs/puppetlabs-activemq.git"
