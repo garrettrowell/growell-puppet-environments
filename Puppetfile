@@ -4,59 +4,59 @@ forge "http://forge.puppetlabs.com"
 
 mod "openstack",
   :git => "git://github.com/puppetlabs/puppetlabs-openstack.git",
-  :ref => "master"
+  :ref => "stable/liberty"
 
 mod "keystone",
   :git => "git://github.com/stackforge/puppet-keystone",
-  :ref => "master"
+  :ref => "stable/liberty"
 
 mod "swift",
   :git => "git://github.com/stackforge/puppet-swift",
-  :ref => "master"
+  :ref => "stable/liberty"
 
 mod "glance",
   :git => "git://github.com/stackforge/puppet-glance",
-  :ref => "master"
+  :ref => "stable/liberty"
 
 mod "cinder",
   :git => "git://github.com/stackforge/puppet-cinder",
-  :ref => "master"
+  :ref => "stable/liberty"
 
 mod "neutron",
   :git => "git://github.com/stackforge/puppet-neutron",
-  :ref => "master"
+  :ref => "stable/liberty"
 
 mod "nova",
   :git => "git://github.com/stackforge/puppet-nova",
-  :ref => "master"
+  :ref => "stable/liberty"
 
 mod "heat",
   :git => "git://github.com/stackforge/puppet-heat",
-  :ref => "master"
+  :ref => "stable/liberty"
 
 mod "ceilometer",
   :git => "git://github.com/stackforge/puppet-ceilometer",
-  :ref => "master"
+  :ref => "stable/liberty"
 
 mod "horizon",
   :git => "git://github.com/stackforge/puppet-horizon",
-  :ref => "master"
+  :ref => "stable/liberty"
 
 mod "openstacklib",
   :git => "git://github.com/stackforge/puppet-openstacklib",
-  :ref => "master"
+  :ref => "stable/liberty"
 
 mod "openstack_extras",
   :git => "git://github.com/stackforge/puppet-openstack_extras",
-  :ref => "master"
+  :ref => "stable/liberty"
 
 mod "tempest",
   :git => "git://github.com/stackforge/puppet-tempest",
-  :ref => "master"
+  :ref => "stable/liberty"
 
 mod "vswitch",
   :git => "git://github.com/stackforge/puppet-vswitch",
-  :ref => "master"
+  :ref => "stable/liberty"
 
 ## R10K doesn't handle dependencies, so let's handle them here
 # pointing to as many stable projects as possible
