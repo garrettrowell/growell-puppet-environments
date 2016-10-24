@@ -2,61 +2,61 @@ forge "http://forge.puppetlabs.com"
 
 ## The core OpenStack modules
 
-mod "openstack",
-  :git => "git://github.com/puppetlabs/puppetlabs-openstack.git",
-  :ref => "stable/liberty"
+#mod "openstack",
+#  :git => "git://github.com/puppetlabs/puppetlabs-openstack.git",
+#  :ref => "stable/newton"
 
 mod "keystone",
-  :git => "git://github.com/stackforge/puppet-keystone",
-  :ref => "stable/liberty"
+  :git => "git://github.com/openstack/puppet-keystone",
+  :ref => "stable/newton"
 
 mod "swift",
-  :git => "git://github.com/stackforge/puppet-swift",
-  :ref => "stable/liberty"
+  :git => "git://github.com/openstack/puppet-swift",
+  :ref => "stable/newton"
 
 mod "glance",
-  :git => "git://github.com/stackforge/puppet-glance",
-  :ref => "stable/liberty"
+  :git => "git://github.com/openstack/puppet-glance",
+  :ref => "stable/newton"
 
 mod "cinder",
-  :git => "git://github.com/stackforge/puppet-cinder",
-  :ref => "stable/liberty"
+  :git => "git://github.com/openstack/puppet-cinder",
+  :ref => "stable/newton"
 
 mod "neutron",
-  :git => "git://github.com/stackforge/puppet-neutron",
-  :ref => "stable/liberty"
+  :git => "git://github.com/openstack/puppet-neutron",
+  :ref => "stable/newton"
 
 mod "nova",
-  :git => "git://github.com/stackforge/puppet-nova",
-  :ref => "stable/liberty"
+  :git => "git://github.com/openstack/puppet-nova",
+  :ref => "stable/newton"
 
 mod "heat",
-  :git => "git://github.com/stackforge/puppet-heat",
-  :ref => "stable/liberty"
+  :git => "git://github.com/openstack/puppet-heat",
+  :ref => "stable/newton"
 
 mod "ceilometer",
-  :git => "git://github.com/stackforge/puppet-ceilometer",
-  :ref => "stable/liberty"
+  :git => "git://github.com/openstack/puppet-ceilometer",
+  :ref => "stable/newton"
 
 mod "horizon",
-  :git => "git://github.com/stackforge/puppet-horizon",
-  :ref => "stable/liberty"
+  :git => "git://github.com/openstack/puppet-horizon",
+  :ref => "stable/newton"
 
 mod "openstacklib",
-  :git => "git://github.com/stackforge/puppet-openstacklib",
-  :ref => "stable/liberty"
+  :git => "git://github.com/openstack/puppet-openstacklib",
+  :ref => "stable/newton"
 
 mod "openstack_extras",
-  :git => "git://github.com/stackforge/puppet-openstack_extras",
-  :ref => "stable/liberty"
+  :git => "git://github.com/openstack/puppet-openstack_extras",
+  :ref => "stable/newton"
 
 mod "tempest",
-  :git => "git://github.com/stackforge/puppet-tempest",
-  :ref => "stable/liberty"
+  :git => "git://github.com/openstack/puppet-tempest",
+  :ref => "stable/newton"
 
 mod "vswitch",
-  :git => "git://github.com/stackforge/puppet-vswitch",
-  :ref => "stable/liberty"
+  :git => "git://github.com/openstack/puppet-vswitch",
+  :ref => "stable/newton"
 
 ## R10K doesn't handle dependencies, so let's handle them here
 # pointing to as many stable projects as possible

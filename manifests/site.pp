@@ -18,11 +18,6 @@ node 'growell-katello-master.dev.cnwr.com' {
 
 }
 
-node 'growell-openstack-allinone.dev.cnwr.com' {
-  include ::roles::common
-  include ::openstack::role::allinone
-}
-
 node 'growell-puppetdb.dev.cnwr.com' {
   include ::roles::common
   class { '::mcollective':
@@ -42,4 +37,16 @@ node 'growell-puppetdb.dev.cnwr.com' {
     database_host  => 'growell-puppetdb.dev.cnwr.com',
     listen_address => '0.0.0.0',
   }
+}
+
+node 'growell-controller-01.dev.cnwr.com' {
+
+}
+
+node 'growell-block-01.dev.cnwr.com' {
+
+}
+
+node 'growell-compute-01.dev.cnwr.com' {
+
 }
